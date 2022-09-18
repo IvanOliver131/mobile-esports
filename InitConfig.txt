@@ -1,1 +1,2 @@
 npm install @react-navigation/native
+expo start -c --tunnel
