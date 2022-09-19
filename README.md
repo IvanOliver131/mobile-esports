@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NLW-eSports" title="" src="https://raw.githubusercontent.com/IvanOliver131/mobile/58a27076654e677c74014846e704c86e4fbbdeed/mobile/src/assets/eSportsNLWLogo.svg" width="250px" />
+    <img alt="NLW-eSports" title="" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/58a27076654e677c74014846e704c86e4fbbdeed/mobile-esports/src/assets/logo-nlw-esports.png" width="250px" />
 </h1>
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -10,13 +10,13 @@
 
 ## Landing Page
 
-  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/mobile/main/screenshot.jpg" width="100%">
+  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/mobile-esports/master/screenshot.jpg" width="100%">
   
 ## Splash Screen
-  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/mobile/main/screenshot2.jpg" width="100%">
+  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/mobile-esports/master/screenshot2.jpg" width="100%">
   
 ## Mobile
-  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/mobile/main/screenshot3.jpg" width="100%">
+  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/mobile-esports/master/screenshot3.jpg" width="100%">
 
 ## :rocket: Tecnologias
 
