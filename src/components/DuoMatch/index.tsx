@@ -1,6 +1,7 @@
 import { View, Modal, ModalProps, Text, TouchableOpacity } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import { CheckCircle } from "phosphor-react-native";
+import * as Clipboard from "expo-clipboard";
 
 import { styles } from "./styles";
 import { THEME } from "../../theme";
@@ -12,6 +13,10 @@ interface Props extends ModalProps {
 }
 
 export function DuoMatch({ discord, onClose, ...rest }: Props) {
+  async function handleCopyDiscordUserToClipboard() {
+    await Clipboard.setStringAsync(discord);
+  }
+
   return (
     <Modal animationType="fade" transparent statusBarTranslucent {...rest}>
       <View style={styles.container}>
@@ -34,7 +39,10 @@ export function DuoMatch({ discord, onClose, ...rest }: Props) {
 
           <Text style={styles.label}>Adicione no Discord</Text>
 
-          <TouchableOpacity style={styles.discordButton}>
+          <TouchableOpacity
+            style={styles.discordButton}
+            onPress={handleCopyDiscordUserToClipboard}
+          >
             <Text style={styles.discord}>{discord}</Text>
           </TouchableOpacity>
         </View>
