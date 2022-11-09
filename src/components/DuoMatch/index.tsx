@@ -29,7 +29,7 @@ export function DuoMatch({ discord, onClose, ...rest }: Props) {
     await Clipboard.setStringAsync(discord);
     Alert.alert(
       "Discord copiado!",
-      "Usuário copiado para você colar no Discord e encontrar essa pessoa."
+      "Usuário copiado para você colar no Discord."
     );
     setIsCopping(false);
   }
